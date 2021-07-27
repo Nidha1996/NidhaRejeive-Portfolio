@@ -411,6 +411,16 @@ header .navbar ul li a:hover{
         width:80rem;
     }
 }
+/* @media (max-width:1120px){
+    .container{
+        width:70rem;
+    }
+}
+@media (max-width:1050px){
+    .container{
+        width:65rem;
+    }
+} */
 @media (max-width:991px){
     #header{
         left:-120%;
@@ -433,6 +443,17 @@ header .navbar ul li a:hover{
         width:110rem;
     }
  }
+ /* @media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .home .name span{
+        font-size:2.2rem;
+    }
+    .home .post span{
+        font-size:2.2rem;
+    }
+ } */
 @media (max-width:400px){
 
     header{
@@ -443,6 +464,15 @@ header .navbar ul li a:hover{
         flex-direction:column;
         align-items:center;
         justify-content: center;
+    }
+    .home .name span{
+        font-size:2rem;
+    }
+    .home .post span{
+        font-size:2.2rem;
+    }
+    .home  h3{
+        font-size: 1.7rem;
     }
  }
  
