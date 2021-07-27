@@ -428,6 +428,7 @@ header .navbar ul li a:hover{
     #menu{
         display: block;
         padding-right:15px;
+        z-index:1000;
     }
     #header.toggl{
         left:0%;
